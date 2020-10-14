@@ -6,7 +6,7 @@ body {
   font-family: 'THSarabunNewRegular';
   font-weight: normal; 
   font-style: normal; 
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
  }
 h1 {
@@ -78,7 +78,7 @@ button {
   border: solid 5px; 
   border-radius: 0px;
   background-color: rgb(255, 253, 253);
-  margin: 100px;
+  margin: 50px;
 }
 button:hover{
 	background-color: rgb(63, 127, 230);
@@ -100,7 +100,7 @@ button {
   font-family: 'OrkneyRegular';
   font-weight: normal;
   font-style: normal;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
 }
 button:hover{
@@ -114,8 +114,12 @@ button div {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .wrapper {
     text-align: center;
