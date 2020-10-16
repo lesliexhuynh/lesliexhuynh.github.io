@@ -1,0 +1,122 @@
+body {background-color: rgb(151, 96, 218);}
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'BebasNeueBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 100px;
+  text-align: center;
+} 
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'BebasNeueBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 50px;
+  text-align: center;
+} 
+p {
+  color: rgb(192, 146, 245);
+  font-family: 'BebasNeueBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 25px;
+  text-align: center;
+} 
+.container {
+  position: relative;
+  width: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2c154ec5;
+}
+
+.container:hover .overlay {
+  opacity: 30;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding-top: .1px;
+  padding-bottom: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+
+}
+
+.column {
+  -ms-flex: 14%; 
+  flex: 14%;
+  max-width: 25%;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
