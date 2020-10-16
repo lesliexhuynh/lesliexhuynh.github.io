@@ -16,7 +16,7 @@ h2 {
   text-align: center;
 } 
 p {
-  color: rgb(192, 146, 245);
+  color: rgb(255, 255, 255);
   font-family: 'BebasNeueBold'; 
   font-weight: normal; 
   font-style: normal; 
@@ -34,7 +34,7 @@ p {
   height: auto;
 }
 
-.overlay {
+.overlayrm {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -44,12 +44,116 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #2c154ec5;
+  background-color: #205d8cc6;
 }
 
-.container:hover .overlay {
+.container:hover .overlayrm {
   opacity: 30;
 }
+
+.overlayjn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c46bc4c9;
+}
+
+.container:hover .overlayjn {
+  opacity: 30;
+}
+
+.overlaysg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #323232d2;
+}
+
+
+.container:hover .overlaysg {
+  opacity: 30;
+}
+
+.overlayjh {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f3080897;
+}
+
+.container:hover .overlayjh {
+  opacity: 30;
+}
+
+.overlayjm {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d4af37b1;
+}
+
+.container:hover .overlayjm {
+  opacity: 30;
+}
+
+.overlayv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2c7851b8;
+}
+
+.container:hover .overlayv {
+  opacity: 30;
+}
+
+.overlayjk {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #541777c4;
+}
+
+.container:hover .overlayjk {
+  opacity: 30;
+}
+
 
 .text {
   color: white;
@@ -105,11 +209,11 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1920px) {
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 70%;
+    flex: 70%;
+    max-width: 70%;
   }
 }
 
