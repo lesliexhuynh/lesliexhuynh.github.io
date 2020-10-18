@@ -7,6 +7,14 @@ h1 {
   font-size: 70px;
   text-align: center;
 } 
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'BebasNeueBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 30px;
+  text-align: center;
+} 
 
 /* flex box */
 * {
