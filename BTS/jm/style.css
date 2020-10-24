@@ -15,6 +15,14 @@ h2 {
   font-size: 30px;
   text-align: center;
 } 
+li {
+  color: rgb(255, 255, 255);
+  font-family: 'BebasNeueBold'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 30px;
+  text-align: center;
+} 
 /* flex box */
 * {
   box-sizing: border-box;
@@ -65,27 +73,45 @@ body {
     max-width: 100%;
   }
 }
-/* nav bar */
-.topnav {
-  background-color: #dfc42c;
-  overflow: hidden;
+.nav{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
 }
-
-.topnav a {
-  float: left;
-  color: #a08a0c;
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding:10px;
+}
+a.nav-link:link
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+.header {
+  padding: 0px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: #ddbc02;
-}
-
-.topnav a.active {
-  background-color: #FFD700;
+  background: #c9a736;
   color: white;
+  font-size: 30px;
 }
