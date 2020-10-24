@@ -1,4 +1,4 @@
-body {background-color: rgb(241, 162, 249);}
+body {background-color: rgb(244, 127, 201);}
 h1 {
   color: rgb(255, 255, 255);
   font-family: 'BebasNeueBold'; 
@@ -24,7 +24,7 @@ li {
   text-align: center;
 } 
 
-* flex box */
+/* flex box */
 * {
   box-sizing: border-box;
 }
@@ -113,7 +113,7 @@ a.nav-link:active
 .header {
   padding: 0px;
   text-align: center;
-  background: #da5ea2;
+  background: #ed78af;
   color: white;
   font-size: 30px;
 }
