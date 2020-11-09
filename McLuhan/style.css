@@ -1,0 +1,41 @@
+body {background-color: rgb(169, 228, 245);}
+
+button {
+    padding: 15px 25px;
+    font-family: 'BebasNeueBold'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 30px;
+    text-align: center;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #3151d5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(255, 255, 255);
+  }
+  
+  .button:hover {background-color: #0a1765}
+  
+  .button:active {
+    background-color: #3151d5;
+    box-shadow: 0 5px rgb(255, 255, 255);
+    transform: translateY(4px);
+  }
+  
+
+  h2 {
+    color: rgb(45, 77, 147);
+    font-family: 'BebasNeueBold'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+  } 
+  .wrapper {
+    text-align: center;
+  }
+  
