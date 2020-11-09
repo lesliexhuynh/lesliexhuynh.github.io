@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(41, 98, 244);
+    }
+    div {
+     display: flex;
+    }
+    button {
+        padding: 15px 25px;
+        font-family: 'BebasNeueBold'; 
+        font-weight: normal; 
+        font-style: normal; 
+        font-size: 100px;
+        text-align: center;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #3151d5;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(255, 255, 255);
+      }
+      
+    .button:active {
+        background-color: #3151d5;
+        box-shadow: 0 5px rgb(255, 255, 255);
+        transform: translateY(4px);
+      }
+    
+    
+    button:hover {
+    background-color: #0a1765;
+    border: 1px solid rgb(0,0,0);
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'BebasNeueBold'; 
+        font-weight: normal; 
+        font-style: normal; 
+        font-size: 50px;
+        padding-top: 20px;
+      } 
+    
